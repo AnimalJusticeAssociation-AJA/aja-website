@@ -1,0 +1,62 @@
+:root {
+	--card-border-radius: 0.7em;
+}
+
+.event-card {
+	height: 10%;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 0.6em rgb(75, 74, 74);
+	margin-bottom: 2em;
+	border-radius: var(--card-border-radius);
+}
+
+.event-card-content {
+	display: flex;
+	width: 100%;
+}
+
+.event-img {
+	width: 30%;
+}
+
+.event-description {
+	width: 55%;
+	display: block;
+	margin: auto;
+}
+
+.event-timings {
+	width: 15%;
+	display: block;
+	margin: auto;
+}
+
+.event-img > img {
+	width: 100%;
+	height: 100%;
+	border-radius: var(--card-border-radius) 0 0 var(--card-border-radius);
+}
+
+.event-description > p {
+	margin: 1em;
+}
+
+.event-timings > *:not(button) {
+	text-align: center;
+}
+
+.event-timings > button {
+	display: block;
+	margin: auto;
+	border: none;
+	padding: 0.4em 1em;
+	border-radius: 0.4em;
+	cursor: pointer;
+	background-color: rgb(243, 236, 236);
+	transition: all 0.2s ease-in-out;
+}
+
+.event-timings > button:hover {
+	background-color: rgb(223, 215, 215);
+}
