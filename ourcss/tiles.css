@@ -52,11 +52,11 @@
 	z-index: 3;
 }
 
-.tiles article h3 {
+.tiles article h6 {
 	font-size: 1.75em;
 }
 
-.tiles article h3 a:hover {
+.tiles article h6 a:hover {
 	color: inherit !important;
 }
 
@@ -166,7 +166,7 @@
 		min-height: 0;
 	}
 
-	.tiles article h3 {
+	.tiles article h6 {
 		font-size: 1.5em;
 	}
 }
