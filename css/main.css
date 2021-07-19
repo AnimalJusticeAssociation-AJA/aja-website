@@ -1106,7 +1106,7 @@ th {
     border: 1px solid #cea06c;
 }
 .banner-area {
-    background: url(../img/common-banner.jpg) no-repeat;
+    background: url(../img/fish.jpg) no-repeat;
     background-size: cover;
 }
 .banner-area .banner-content {
@@ -1125,6 +1125,29 @@ th {
     }
 }
 .banner-area p {
+    margin-bottom: 0px;
+    color: #fff;
+}
+.banner-area1 {
+    background: url(../img/whitetiger.jpg) no-repeat;
+    background-size: cover;
+}
+.banner-area1 .banner-content {
+    min-height: 450px;
+}
+.banner-area1 .overlay-bg {
+    background: rgba(7, 4, 31, 0.6);
+}
+.banner-area1 h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .banner-area1 h1 {
+        font-size: 35px;
+    }
+}
+.banner-area1 p {
     margin-bottom: 0px;
     color: #fff;
 }
@@ -1285,7 +1308,7 @@ th {
     left: 0;
     width: 36%;
     bottom: 70px;
-    background: url(../img/offer.jpg) no-repeat center center/cover;
+    background: url(../img/cheat.jpg) no-repeat center center/cover;
     z-index: 1;
 }
 @media (max-width: 1199px) {
