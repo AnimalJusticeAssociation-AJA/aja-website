@@ -1388,6 +1388,13 @@ th {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
+.feature-item > img {
+	margin-bottom: 35px;
+	height: auto;
+	width: auto;
+	max-height: 150px;
+	border: 1px solid #9499a5;
+}
 @media (max-width: 767px) {
 	.feature-item i {
 		margin-bottom: 20px;
