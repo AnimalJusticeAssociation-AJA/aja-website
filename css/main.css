@@ -1008,14 +1008,36 @@ th {
 	z-index: 9;
 	background: transparent;
 }
+/* .logo-container {
+	width: 90px;
+	position: absolute;
+	left: 0;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+} */
+.logo-container > img {
+	width: auto;
+	height: auto;
+	max-height: 60px;
+	max-width: 100px;
+	display: block;
+}
 @media (max-width: 991px) {
 	.default-header {
 		background: #263a4e;
+		/* background: transparent; */
 	}
+	/* .logo-container {
+		width: 70px;
+		position: absolute;
+		top: 10;
+		left: 60;
+		transform: translate(-50%, -50%);
+	} */
 }
-.default-header .navbar {
+/* .default-header .navbar {
 	padding: 22px 16px;
-}
+} */
 .default-header .navbar .navbar-toggler {
 	border: 1px solid #fff;
 	border-color: #fff;
