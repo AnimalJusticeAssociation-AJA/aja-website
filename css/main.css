@@ -1,4 +1,7 @@
 /* Spotlights */
+html {
+	scroll-behavior: smooth;
+}
 
 .spotlights {
 	border-top: 0 !important;
@@ -3730,4 +3733,10 @@ h6 {
 		text-align: left;
 		margin-top: 20px;
 	}
+}
+.contact-buttons {
+	background-color: #334f6c;
+	padding: 0.7em;
+	text-decoration: none;
+	color: white;
 }
