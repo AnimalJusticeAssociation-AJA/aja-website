@@ -1309,6 +1309,53 @@ th {
 	margin-bottom: 0px;
 	color: #fff;
 }
+.banner-area2 {
+	background: url(../img/bg4.jpg) no-repeat;
+	background-size: cover;
+}
+.banner-area2 .banner-content {
+	min-height: 450px;
+}
+.banner-area2 .overlay-bg {
+	background: rgba(7, 4, 31, 0.6);
+}
+.banner-area2 h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+	.banner-area2 h1 {
+		font-size: 35px;
+	}
+}
+.banner-area2 p {
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+.banner-area3 {
+	background: url(../img/orcassssss.jpg) no-repeat;
+	background-size: cover;
+}
+.banner-area3 .banner-content {
+	min-height: 450px;
+}
+.banner-area3 .overlay-bg {
+	background: rgba(7, 4, 31, 0.6);
+}
+.banner-area3 h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+	.banner-area3 h1 {
+		font-size: 35px;
+	}
+}
+.banner-area3 p {
+	margin-bottom: 0px;
+	color: #fff;
+}
 .head-bottom-meta {
 	position: absolute;
 	bottom: 50px;
