@@ -25,4 +25,14 @@ def about():
 
 @app.route("/contact", methods=['POST', 'GET'])
 def contact():
-    return render_template('https://animal-justice-association.netlify.app/contact.html')
+    return render_template('contact.html')
+
+
+@app.route("/blog-posts/animal-abuse-serial-killers", methods=['POST', 'GET'])
+def animal_abuse_serial_killers():
+    return render_template('blog-posts/animal-abuse-serial-killers.html')
+
+
+@app.route("/blog-posts/the-forced-life", methods=['POST', 'GET'])
+def the_forced_life():
+    return render_template('blog-posts/the-forced-life.html')

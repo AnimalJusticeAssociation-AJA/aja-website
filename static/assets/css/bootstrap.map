@@ -5,7 +5,7 @@
 		"../scss/bootstrap.scss",
 		"../scss/bootstrap/_functions.scss",
 		"../scss/bootstrap/_variables.scss",
-		"../scss/bootstrap/_mixins.scss",
+		"../scss/bootstrap/_mixins.scss",ure-doc
 		"../scss/bootstrap/mixins/_breakpoints.scss",
 		"../scss/bootstrap/mixins/_hover.scss",
 		"../scss/bootstrap/mixins/_image.scss",
