@@ -89,7 +89,7 @@
 }
 
 .banner-area {
-	background: url(../img/common-banner.jpg) no-repeat;
+	background: url(/static/img/common-banner.jpg) no-repeat;
 	background-size: cover;
 
 	.banner-content {
@@ -300,7 +300,7 @@
 		left: 0;
 		width: 36%;
 		bottom: 70px;
-		background: url(../img/offer.jpg) no-repeat center center/cover;
+		background: url(/static/img/offer.jpg) no-repeat center center/cover;
 		z-index: 1;
 
 		@media(max-width: 1199px) {
@@ -478,7 +478,7 @@
 /*--------- Start callto Area -------------*/
 
 .callto-area {
-	background: url(../img/ct1.jpg) center;
+	background: url(/static/img/ct1.jpg) center;
 	background-size: cover;
 	text-align: center;
 

@@ -1,122 +1,6 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
+{% extends 'blog-base.html' %}
 
-<head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="/img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="colorlib">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>The Hidden Connection Between Young Animal Abusers and Serial Killers</title>
-
-     		<link rel="icon"
-      		type="img/png"
-      		href="img/aja logo.png"
-     	>
-
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:400,500" rel="stylesheet">
-
-
-	<!--
-			CSS
-			============================================= -->
-	<link rel="stylesheet" href="../css/linearicons.css">
-	<link rel="stylesheet" href="../css/font-awesome.min.css">
-	<link rel="stylesheet" href="../css/bootstrap.css">
-	<link rel="stylesheet" href="../css/owl.carousel.css">
-	<link rel="stylesheet" href="../css/magnific-popup.css">
-	<link rel="stylesheet" href="../css/nice-select.css">
-	<link rel="stylesheet" href="../css/main.css">
-</head>
-
-<body>
-
-	<!-- Start Header Area -->
-	<header class="default-header">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container">
-				<!-- <a class="navbar-brand" href="index.html">
-					<img src="img/logo.png" alt="" />
-				</a> -->
-				<a href="/" class="logo-container">
-					<img
-						src="../img/aja logo.png"
-						alt="our website logo"
-						height="80"
-						width="100"
-					/>
-				</a>
-
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="fa fa-bars"></span>
-				</button>
-
-				<div
-					class="collapse navbar-collapse justify-content-end align-items-center"
-					id="navbarSupportedContent"
-					style="position: relative"
-				>
-					<ul class="navbar-nav">
-						<li><a href="/index.html">Home</a></li>
-						<li><a href="/services.html">Services & Events</a></li>
-						<li><a class="blog-home." href="/blog-home.html">Research Articles</a></li>
-						<li><a href="/about.html">About</a></li>
-						<li><a href="#footer-area">Contact</a></li>
-
-						<!--<li class="dropdown">
-							<a
-								class="dropdown-toggle"
-								href="#"
-								id="navbardrop"
-								data-toggle="dropdown"
-							>
-								Pages
-							</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="projects.html">Projects</a>
-								<a class="dropdown-item" href="elements.html">Elements</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a
-								class="dropdown-toggle"
-								href="#"
-								id="navbardrop"
-								data-toggle="dropdown"
-							>
-								Blog
-							</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="blog-home.html">Blog</a>
-								<a class="dropdown-item" href="blog-single.html"
-									>Blog Details</a
-								-->
-								
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<!-- End Header Area -->
-
+{% block body %}
 	<!-- Start Banner Area -->
 	<section class="banner-area3 relative">
 		<div class="overlay overlay-bg"></div>
@@ -138,7 +22,7 @@
 					<div class="single-post row">
 						<div class="col-lg-12">
 							<div class="feature-img">
-								<img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
+								<img class="img-fluid" src="../static/img/blog/feature-img1.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-lg-3  col-md-3 meta-details">
@@ -190,10 +74,10 @@
 							</div>
 							<!-- <div class="row mt-30 mb-30">
 								<div class="col-6">
-									<img class="img-fluid" src="img/blog/post-img1.jpg" alt="">
+									<img class="img-fluid" src="static/img/blog/post-img1.jpg" alt="">
 								</div>
 								<div class="col-6">
-									<img class="img-fluid" src="img/blog/post-img2.jpg" alt="">
+									<img class="img-fluid" src="static/img/blog/post-img2.jpg" alt="">
 								</div>
 								<div class="col-lg-12 mt-30">
 									<p>
@@ -214,7 +98,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
 								<div class="thumb">
-									<a href="#"><img class="img-fluid" src="img/blog/prev.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="static/img/blog/prev.jpg" alt=""></a>
 								</div>
 								<div class="arrow">
 									<a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
@@ -233,7 +117,7 @@
 									<a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
 								</div>
 								<div class="thumb">
-									<a href="#"><img class="img-fluid" src="img/blog/next.jpg" alt=""></a>
+									<a href="#"><img class="img-fluid" src="static/img/blog/next.jpg" alt=""></a>
 								</div>
 							</div>
 						</div>
@@ -244,7 +128,7 @@
 							<div class="single-comment justify-content-between d-flex">
 								<div class="user justify-content-between d-flex">
 									<div class="thumb">
-										<img src="img/blog/c1.jpg" alt="">
+										<img src="static/img/blog/c1.jpg" alt="">
 									</div>
 									<div class="desc">
 										<h5><a href="#">Emilly Blunt</a></h5>
@@ -263,7 +147,7 @@
 							<div class="single-comment justify-content-between d-flex">
 								<div class="user justify-content-between d-flex">
 									<div class="thumb">
-										<img src="img/blog/c2.jpg" alt="">
+										<img src="static/img/blog/c2.jpg" alt="">
 									</div>
 									<div class="desc">
 										<h5><a href="#">Elsie Cunningham</a></h5>
@@ -282,7 +166,7 @@
 							<div class="single-comment justify-content-between d-flex">
 								<div class="user justify-content-between d-flex">
 									<div class="thumb">
-										<img src="img/blog/c3.jpg" alt="">
+										<img src="static/img/blog/c3.jpg" alt="">
 									</div>
 									<div class="desc">
 										<h5><a href="#">Annie Stephens</a></h5>
@@ -301,7 +185,7 @@
 							<div class="single-comment justify-content-between d-flex">
 								<div class="user justify-content-between d-flex">
 									<div class="thumb">
-										<img src="img/blog/c4.jpg" alt="">
+										<img src="static/img/blog/c4.jpg" alt="">
 									</div>
 									<div class="desc">
 										<h5><a href="#">Maria Luna</a></h5>
@@ -526,86 +410,4 @@
 		</div>
 	</section>
 	<!-- End post-content Area -->
-
-	<!-- start footer Area -->
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>Sign Up to get information related to events and research publications</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form
-							target="_blank"
-							action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-							method="get"
-							class="form-inline"
-						>
-							<input
-								class="form-control"
-								name="EMAIL"
-								placeholder="Your Email Address"
-								onfocus="this.placeholder = ''"
-								onblur="this.placeholder = 'Your Email Address'"
-								required=""
-								type="email"
-							/>
-							<button class="click-btn btn btn-default">
-								<span>subscribe</span>
-							</button>
-							<div style="position: absolute; left: -5000px">
-								<input
-									name="b_36c4fd991d266f23781ded980_aefe40901a"
-									tabindex="-1"
-									value=""
-									type="text"
-								/>
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="row footer-bottom d-flex justify-content-between">
-				<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Animal Justice Association &copy;
-					<script>
-						document.write(new Date().getFullYear());
-					</script>
-					All rights reserved | This template is made with
-					<i class="fa fa-heart-o" aria-hidden="true"></i> by
-					<a href="https://colorlib.com" target="_blank">Colorlib</a>
-				</p>
-				<div class="col-lg-4 col-sm-12 footer-social">
-					<a href="https://www.facebook.com/Animal-Justice-Association-AJA-700032614181253/?ref=pages_you_manage"><i class="fa fa-facebook-f"></i></a>
-					<a href="https://www.instagram.com/_animaljusticeassociation_/"><i class="fa fa-instagram"></i></a>
-					<a href="https://www.linkedin.com/company/animal-justice-association"><i class="fa fa-linkedin"></i></a>
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div class="col-lg-4 col-sm-12">
-					<a href="https://animal-justice-association.netlify.app/contact.html" target="_blank" class="contact-buttons" style="color: white;">Contact Us</a>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLScksXP8cczv16nO9WIQmihuPuLrskgu1yKbJ35dU3zRO6noNA/viewform" target="_blank" class="contact-buttons" style="color: white;">Apply Now</a>
-				</div>
-			</div>
-		</div>
-	</footer>
-		<!-- End footer Area -->
-	
-		<script src="../js/vendor/jquery-2.2.4.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-		 crossorigin="anonymous"></script>
-		<script src="../js/vendor/bootstrap.min.js"></script>
-		<script src="../js/jquery.ajaxchimp.min.js"></script>
-		<script src="../js/parallax.min.js"></script>
-		<script src="../js/owl.carousel.min.js"></script>
-		<script src="../js/isotope.pkgd.min.js"></script>
-		<script src="../js/jquery.nice-select.min.js"></script>
-		<script src="../js/jquery.magnific-popup.min.js"></script>
-		<script src="../js/jquery.sticky.js"></script>
-		<script src="../js/main.js"></script>
-	</body>
-	
-	</html>
+{% endblock %}

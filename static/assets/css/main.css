@@ -1302,7 +1302,7 @@ th {
 	border: 1px solid #cea06c;
 }
 .banner-area {
-	background: url(../img/fish.jpg) no-repeat;
+	background: url(/static/img/fish.jpg) no-repeat;
 	background-size: cover;
 }
 .banner-area .banner-content {
@@ -1325,7 +1325,7 @@ th {
 	color: #fff;
 }
 .banner-area1 {
-	background: url(../img/forrest.jpg) no-repeat;
+	background: url(/static/img/forrest.jpg) no-repeat;
 	background-size: cover;
 }
 .banner-area1 .banner-content {
@@ -1348,7 +1348,7 @@ th {
 	color: #fff;
 }
 .banner-area2 {
-	background: url(../img/bg4.jpg) no-repeat;
+	background: url(/static/img/bg4.jpg) no-repeat;
 	background-size: cover;
 }
 .banner-area2 .banner-content {
@@ -1372,7 +1372,7 @@ th {
 }
 
 .banner-area3 {
-	background: url(../img/orcassssss.jpg) no-repeat;
+	background: url(/static/img/orcassssss.jpg) no-repeat;
 	background-size: cover;
 }
 .banner-area3 .banner-content {
@@ -1558,7 +1558,7 @@ th {
 	left: 0;
 	width: 36%;
 	bottom: 70px;
-	background: url(../img/cheat.jpg) no-repeat center center/cover;
+	background: url(/static/img/cheat.jpg) no-repeat center center/cover;
 	z-index: 1;
 }
 @media (max-width: 1199px) {
@@ -1705,7 +1705,7 @@ th {
 	color: #cea06c;
 }
 .callto-area {
-	background: url(../img/ct1.jpg) center;
+	background: url(/static/img/ct1.jpg) center;
 	background-size: cover;
 	text-align: center;
 }
@@ -1934,7 +1934,7 @@ th {
 	display: block;
 }
 .blog-home-banner {
-	background: url(../img/blog/blog-home-banner.jpg) bottom;
+	background: url(/static/img/blog/blog-home-banner.jpg) bottom;
 	background-size: cover;
 	padding: 130px 0px;
 }
@@ -3404,7 +3404,7 @@ h6 {
 	border: 1px solid #f1f1f1;
 }
 .primary-checkbox input:checked + label {
-	background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+	background: url(/static/img/elements/primary-check.png) no-repeat center center/cover;
 	border: none;
 }
 .confirm-checkbox {
@@ -3438,7 +3438,7 @@ h6 {
 	border: 1px solid #f1f1f1;
 }
 .confirm-checkbox input:checked + label {
-	background: url(../img/elements/success-check.png) no-repeat center center/cover;
+	background: url(/static/img/elements/success-check.png) no-repeat center center/cover;
 	border: none;
 }
 .disabled-checkbox {
@@ -3476,7 +3476,7 @@ h6 {
 	z-index: 3;
 }
 .disabled-checkbox input:checked + label {
-	background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+	background: url(/static/img/elements/disabled-check.png) no-repeat center center/cover;
 	border: none;
 }
 .primary-radio {
@@ -3510,7 +3510,7 @@ h6 {
 	border: 1px solid #f1f1f1;
 }
 .primary-radio input:checked + label {
-	background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+	background: url(/static/img/elements/primary-radio.png) no-repeat center center/cover;
 	border: none;
 }
 .confirm-radio {
@@ -3544,7 +3544,7 @@ h6 {
 	border: 1px solid #f1f1f1;
 }
 .confirm-radio input:checked + label {
-	background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+	background: url(/static/img/elements/success-radio.png) no-repeat center center/cover;
 	border: none;
 }
 .disabled-radio {
@@ -3582,7 +3582,7 @@ h6 {
 	z-index: 3;
 }
 .disabled-radio input:checked + label {
-	background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+	background: url(/static/img/elements/disabled-radio.png) no-repeat center center/cover;
 	border: none;
 }
 .default-select {
