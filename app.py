@@ -36,3 +36,8 @@ def animal_abuse_serial_killers():
 @app.route("/blog-posts/the-forced-life", methods=['POST', 'GET'])
 def the_forced_life():
     return render_template('blog-posts/the-forced-life.html')
+
+
+@app.route("/blog-posts/eternal-captivity-1", methods=['POST', 'GET'])
+def eternal_captivity_1():
+    return render_template('blog-posts/eternal-captivity-1.html')
